@@ -16,8 +16,9 @@ app.get('/courses', (req, res) => {
 })
 // geet single course by course_id 
 app.get('/course/:course_id', (req, res) => {
+    console.log(req.params.course_id);
     const course_id = parseInt(req.params.course_id);
-    const course = courses.find(course => course.id === course_id)
+    const course = courses.find( c => c.id == course_id)
     res.send(course);
 })
 
