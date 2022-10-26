@@ -1,10 +1,11 @@
 [
     {
         "id": "01",
-        "course_name": "Competitive Programming - Beginne",
+        "course_name": "Competitive Programming - Beginner",
         "description": "Solving a problem is meaningless if you can't convert it to a workable code in a contest that covers all the edge cases. Solving a problem, writing its code in an efficient language is a must for a problem solver.",
         "img": "",
         "price": "5000",
+        "new_arival": "true",
         "course_outline": [
             "Components of computer.",
             "IDE vs Compiler.",
@@ -26,6 +27,7 @@
         "description": "This course is designed to fill up important gaps in your journey to become a professional software engineer. In this course you learn about industry good practices and professional software development process. ",
         "img": "",
         "price": "20000",
+        "new_arival": "",
         "course_outline": [
             "Installing Docker",
             "C# Overview",
@@ -47,6 +49,7 @@
         "description": "The DevOps Fundamentals Course is designed to provide the core education necessary to build your DevOps vocabulary and to understand its principles and practices DevOps tools .",
         "img": "",
         "price": "10000",
+        "new_arival": "true",
         "course_outline": [
             "Amazon Elastic Block Store (EBS).",
             "AWS DevOps tool’s introduction",
@@ -68,6 +71,7 @@
         "description": "This course solely focuses on data structure and algorithm fundamentals. There are a lot of people both from CS and Non-CS background who do not have adequate understandings on data structures and algorithms. ",
         "img": " ",
         "price": "7000",
+        "new_arival": "true",
         "course_outline": [
             "Time Complexity Analysis.",
             "Memory Complexity Analysis.",
@@ -89,6 +93,7 @@
         "description": "Learn React or dive deeper into it. Learn the 'What', 'Why' and 'How' of ReactJs, solve assignments, practice in demo projects, and build one big application that is improved throughout the course.",
         "img": "",
         "price": "8500",
+        "new_arival": "",
         "course_outline": [
             "Setting styles dynamically",
             "CRUD operations",
@@ -110,6 +115,7 @@
         "description": "This course has been designed with effective practical components that makes you a professional/ commercial UI designer. From the Information architecture to Sketch to Wireframe to prototype and UI design- this course is highly structural, concrete, and substantial.",
         "img": " ",
         "price": "6300",
+        "new_arival": "",
         "course_outline": [
             "Human Centered Design",
             "Difference between UI Design, Visual Design and Graphic Design",
@@ -131,6 +137,7 @@
         "description": "This is a very beginner course with a solid foundation. What you can get from this course are 1) Basic Security Testing on Websites and prepare a Pen Testing Report 2) Overall Security Awareness and how to conduct a Security Awareness Program 3) How to protect and harden your website 4) Social Engineering - How to manage and educate your own security team",
         "img": "",
         "price": "9400",
+        "new_arival": "",
         "course_outline": [
             "Why do we need virtualization?",
             "Linux basic commands",
