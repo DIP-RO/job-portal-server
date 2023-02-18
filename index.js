@@ -8,19 +8,35 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 
 
-const courses = require('./Data/courses.json');
+const topit = require('./Data/topit.json');
+const fresherjob = require('./Data/fresherjob.json');
+const expriencedjob = require('./Data/expriencedjob.json');
 
-// get all courses 
-app.get('/courses', (req, res) => {
-    res.send(courses);
+
+// // geet single course by course_id 
+// app.get('/course/:course_id', (req, res) => {
+//     console.log(req.params.course_id);
+//     const course_id = parseInt(req.params.course_id);
+//     const course = courses.find( c => c.id == course_id)
+//     res.send(course);
+// })
+
+
+// get all top it 
+app.get('/topit', (req, res) => {
+    res.send(topit);
 })
-// geet single course by course_id 
-app.get('/course/:course_id', (req, res) => {
-    console.log(req.params.course_id);
-    const course_id = parseInt(req.params.course_id);
-    const course = courses.find( c => c.id == course_id)
-    res.send(course);
+
+// get all fresherjob 
+app.get('/fresherjob', (req, res) => {
+    res.send(fresherjob);
 })
+
+// get all expriencedjob 
+app.get('/expriencedjob', (req, res) => {
+    res.send(expriencedjob);
+})
+
 
 app.get('/', (req, res) => {
     res.send("Fun Code server is running");
